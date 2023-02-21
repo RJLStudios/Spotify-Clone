@@ -1,0 +1,518 @@
+html {
+ font-family: lato;
+ color: white;
+}
+
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #101010;
+
+}
+/*SIDEBAR STYLES*/
+
+.Sidebar {
+    width: 25%;
+    min-width: 250px;
+    max-width: 300px;
+    height: 125vh;
+    position: static;
+    font-size: 20px;
+    background-color: black;
+    text-decoration: none;
+}
+.Sidebar-Nav {
+    padding-top: 30px;    
+}
+.Nav-list {
+    display: flex;
+    text-decoration: none;
+    padding: 16px 16px 16px 30px;
+    color:white;
+    font-weight: 550;
+    opacity: 0.6;
+}
+
+.Playlist-list {
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    color: white; 
+    opacity: 0.6;
+}
+
+.Sidebar-Nav-Play {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.Nav-divider {
+  margin: 0px 20px;
+  opacity: 0.3;
+}
+
+.Playlists {
+ padding-top: 10px;
+ padding-left: 12px;
+ font-size: 18px;
+
+}
+
+.Greeting-desc {
+font-weight: 200;
+}
+
+/*ICON STYLES*/
+
+.fa-magnifying-glass, .fa-house, .fa-bookmark, .fa-square-plus, .fa-heart {
+    color: white;
+    padding-top: 4px;
+    margin-right: 30px;
+    width: 14px;
+    height: 14px;
+}
+
+.fa-chevron-left, .fa-chevron-right{
+    font-size: 25px;
+    color: white;
+    width: 14px;
+    height: 14px;
+    padding-bottom: -20px;
+}
+
+.fa-shuffle, .fa-backward, .fa-forward-step, .fa-repeat{
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    opacity: 0.6;
+}
+
+.fa-shuffle:hover, .fa-backward:hover, .fa-forward-step:hover, .fa-repeat:hover, .fa-bars:hover, .fa-headphones:hover, .fa-volume-high:hover, .fa-up-right-and-down-left-from-center:hover{
+    opacity: 1;
+
+}
+
+.fa-bars, .fa-headphones, .fa-volume-high, .fa-up-right-and-down-left-from-center {
+    color: white;
+    font-size: 19px;
+    padding: 15px 10px;
+    opacity: 65%;
+}
+
+.fa-forward-step, .fa-repeat {
+    margin-left: 6px;
+}
+
+.fa-circle-play {
+    color: white;
+    font-size: 45px;
+    margin: 5px 22px;
+  
+}
+
+.fa-user {
+    color: white;
+    font-size: 20px;
+}
+
+
+.fa-caret-down {
+    color: white;
+    font-size: 20px;
+    margin: 10px 10px 10px 16px;
+}
+
+.fa-play {
+color: #101010;
+font-size: 26px;
+}
+/*MAIN SPLASH PAGE STYLES*/
+
+#Main-splash {
+   width: 100% ;
+   height: 100vh;
+   /*background-color: #222222;*/
+}
+
+Greeting {
+
+}
+
+
+
+/*HEADER STYLES*/
+
+.Main-header {
+height: 80px;
+position: sticky; top:0;
+display: flex;
+background-color:#301934 ;
+}
+
+.Backward, .Forward {
+width: 60px;
+background-color: black;
+border-style: none;
+}
+
+.Forward {
+margin-left: 20px;
+border-radius: 35px;
+}
+
+.Backward {
+    border-radius: 35px;
+}
+
+.Nav-buttons { 
+    display: flex;
+    width: 105px;
+    height: 44px;
+    margin: 15px 55px;
+    border-radius: 50px;
+}
+
+.User-icon {
+    display: flex;
+    margin-top: 17px;
+    margin-left: 45em;
+    width: 130px;
+    height: 40px;
+    background-color:black;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 22px;
+}
+
+.User-name {
+    padding: 8px 0px 8px 12px;
+}
+
+.User-PFP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    width: 34px;
+    background-color: grey;
+    border-radius: 20px;
+    margin: 3px 0px 0px 3px;
+}
+/*WELCOME TAB STYLES*/
+
+.Greeting {
+height: 320px;
+margin: 0px 55px;
+}
+
+.Greeting-Quote {
+    font-size: 40px;
+    padding: 15px 0px;
+}
+
+
+
+.Greeting-Grid-A {
+    padding-bottom: 8px;
+ height: 105px;
+ width: 100%;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 20px;
+ 
+}
+
+.Greeting-Grid-B {
+ padding-top: 8px;
+ height: 105px;
+ width: 100%;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 20px;
+}
+
+
+#G-Grid {
+    border-radius: 8px;
+    background-color: #282828;
+    display: grid;
+    grid-template-columns: 30% 100%;
+}
+
+.Artist-PFP {
+    height: 100%;
+    width: 30%;
+    max-width: 100px;
+    min-width: 100px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.G-Desc {
+    height: 100%;
+    width: 60%;
+    line-height: 5.8em;
+    font-weight: 900;
+    margin-left: 120px;
+    position: absolute;
+}
+
+.Greeting-desc {
+    font-weight: 700;
+    position: absolute;
+    font-size: 19px;
+    
+}
+
+.Greeting-Image {
+    display: block;
+    height: auto;
+    min-height: 105px;
+    width: 100%;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.Show-All {
+
+}
+
+/*OTHER SPLASH TAB STYLES*/
+
+.Quote-Style {
+    font-size: 30PX;
+    padding: 15px 0px;
+}
+
+.Artist-Grid{
+
+display: grid;
+width: 100%;
+max-width: 1200px;
+height: 335px;
+grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr auto;
+grid-gap: 12px;
+
+}
+
+#Card-Grid {
+    max-width: 250px;
+    min-width: 200px;
+    border-radius: 8px;
+    background-color: #181818;
+
+}
+
+
+#Card-Grid:hover  {
+    background-color: #222;
+
+}
+
+#Card-Grid:hover .Circle {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.Grid-PFP {
+    width: 80%;
+    height: 175px;
+    margin-top: 15px;
+    margin-left: 23px;
+    border-radius: 8px;
+}
+
+.Div-Template{
+height: 420px;
+margin: 0px 55px;
+}
+
+.Suggestion {
+height: 350px;
+margin: 0px 55px;
+}
+
+.Grid-Text {
+margin: 50px 24px 0px 24px;
+padding-top: 20px;
+
+}
+.Artist-Image {
+    height: 100%;
+    width: 100%;
+    border-radius:8px;
+}
+.Artist-Name{
+font-size: 18px;
+margin-top: -20px;
+margin-bottom: 20px;
+}
+
+.Artist-Type {
+font-weight: 300;
+margin-top: -10px;
+border-radius: 8px;
+}
+
+.Play-Icon {
+    width: fit-content;
+    height: auto;
+
+}
+.Circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: green;
+    margin: -170px 0px 0px 150px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+    filter: drop-shadow (0 0.5rem 1rem rgba(0,0,0,0.4));
+    transform: translateY(10px);
+    opacity: 0;
+}
+
+/*Card-Div {
+height: 400px;
+margin: 0px 55px;
+}
+*/
+/*SOCIAL TAB STYLES*/
+
+.Social {
+    padding: 40px;
+    width: 20%;
+    background-color: #282828;
+    color: white;
+    height: 100vh;
+    min-height: 500px;    
+}
+
+/*PLAYER STYLES*/
+
+.Player {
+
+    display: flex;
+    height: 125px;
+    width: 100%;
+    border-top: 0.5px solid grey;
+    bottom: 0;
+    position: fixed;
+    background-color: #181818;   
+    justify-content: space-between;
+}
+   
+
+.Current-Song {
+ 
+    height: 90px;
+    width: 270px;
+    margin-top: 15px;
+    margin-left: 15px;
+    grid-template-columns: 1fr;
+    display: flex;
+}
+
+.Current-Image{
+    width: 100%;
+    height: 100%;
+}
+.Song-PFP {
+    width: 35%;
+    height: 100%;
+}
+
+.Playing {
+
+    width: 65%;
+    height: fit-content;
+    padding-left: 16px;
+    margin-top: 22px
+}
+
+.Song-Title {
+font-size: 18px;
+padding-bottom: 10px;
+}
+
+.Song-Artist {
+font-size: 15px;
+font-weight: 300;
+}
+
+.Player-Icons {
+box-sizing: border-box;
+width: 700px;
+margin-left: 130px;
+}
+
+.Icon-Div {
+    display: grid;
+    height: 55%;
+    width: 45%;
+    grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
+    margin: 6px 180px;
+}
+
+.Icon {
+    display: flex;
+}
+
+.Song-Progress {
+    display: inline-block;
+   
+}
+
+.Song-Finish {
+float: right;
+}
+
+.Slider {
+    margin: 0px 10px;
+    width: 600px;
+}
+
+.Volume-Slider {
+    margin: 0px 5px;
+    width: 150px;
+}
+
+
+.Controls {
+    width: fit-content;
+    height: 50px;
+    margin: 35px 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Volume {
+    display: flex;
+}
+
+/*LINK STYLES*/
+
+a {
+    text-decoration: none;
+    color: white;
+
+    }
+
+.Nav-list:hover, .Playlist-list:hover {
+ font-weight: 400;
+ opacity: 1.0;
+}
+
+
+#G-Grid:hover{
+background-color: #808080;
+
+}
