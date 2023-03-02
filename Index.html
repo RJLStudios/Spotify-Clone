@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>TDEE Calculator</title>
+        <link rel="stylesheet" href="Spotify Clone.css">
+        <script src="https://kit.fontawesome.com/fa7f342018.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+    <!--SIDE NAVIGATION-->
+     <div class="Sidebar">
+        <div class="Sidebar-Nav">
+            <ul class="Nav-A">
+                <a href="#" class="Nav-list"><i class="fa-solid fa-house"></i>Home</a> 
+                <a href="#" class="Nav-list"><i class="fa-solid fa-magnifying-glass"></i>Search</a> 
+                <a href="#" class="Nav-list"><i class="fa-regular fa-bookmark"></i>Your Library</a>     
+            </ul>
+        </div>
+
+        <div class="Sidebar-Nav-Play">
+            <ul class="Nav-B">
+                <a href="#" class="Nav-list"><i class="fa-solid fa-square-plus"></i>Create Playlist</a>
+                <a href="#" class="Nav-list"><i class="fa-solid fa-heart"></i>Liked Songs</a>
+            </ul>
+        </div>
+
+        <hr class="Nav-divider">
+
+        <div class="Playlists">
+            <ul class="Created-Playlists">
+                <a href="#" class="Playlist-list">Music to code to</a>
+                <a href="#" class="Playlist-list">Turn up</a>
+                <a href="#" class="Playlist-list">Jazz</a>
+                <a href="#" class="Playlist-list">Lofi</a>
+                <a href="#" class="Playlist-list">RNB</a>
+            </ul>
+        </div>
+     </div>
+
+    <!--MAIN SPLASH NAVIGATION-->
+
+        <div id="Main-splash">
+            <div class="Main-header">
+               <div class="Nav-buttons">
+                 <button class="Backward"><i class="fa-solid fa-chevron-left"></i></button>
+                 <button class="Forward"><i class="fa-solid fa-chevron-right"></i></button>
+               </div>
+              
+               <div class="User-icon">
+                <div class="User-PFP"><i class="fa-regular fa-user"></i></div>
+                <div class="User-name">User</div>
+                <i class="fa-solid fa-caret-down"></i>
+               </div>
+               
+               
+            </div>
+
+           <!--GREETING NAVIGATION-->
+
+            <div class="Greeting">
+            <h1 class="Greeting-Quote">Good morning</h2> 
+             <div class="Greeting-Grid-A">
+
+                <a class="Greeting-link" href="">
+                <div id="G-Grid">
+                    <div class="Artist-PFP"> 
+                        <img class="Greeting-Image" src="Images/Liked.webp">
+                    </div>
+                    <div class="G-Desc">
+                        <H3 class="Greeting-desc">Liked Songs</H3>
+                    </div>      
+                </div>
+                </a>
+
+                <a class="Greeting-link" href="">
+                <div id="G-Grid">
+                    <div class="Artist-PFP"><img class="Greeting-Image" src="Images/Code.jpg"></div>
+                    <div class="G-Desc">
+                        <H3 class="Greeting-desc">Music to code to</H3>
+                    </div>
+                </div>
+                </a>
+                <a class="Greeting-link" href="">
+                <div id="G-Grid">
+                    <div class="Artist-PFP"><img class="Greeting-Image" src="Images/TurnUp.jpg"></div>
+                    <div class="G-Desc">
+                        <H3 class="Greeting-desc">Turn up</H3>
+                    </div>
+                </div>
+                </a>
+             </div>
+ 
+             <div class="Greeting-Grid-B">
+                <a class="Greeting-link" href="">
+                <div id="G-Grid">
+                    <div class="Artist-PFP"><img class="Greeting-Image" src="Images/Jazz.jpeg"></div>
+                    <div class="G-Desc">
+                        <H3 class="Greeting-desc">Jazz</H3>
+                    </div>
+                </div>
+                </a>
+
+                <a class="Greeting-link" href="">
+                <div id="G-Grid">
+                    <div class="Artist-PFP"><img class="Greeting-Image" src="Images/Lofi.webp"></div>
+                    <div class="G-Desc">
+                        <H3 class="Greeting-desc">Lofi</H3>
+                    </div>
+                </div>
+                </a>
+
+                <a class="Greeting-link" href="">
+                <div id="G-Grid">
+                    <div class="Artist-PFP"><img class="Greeting-Image" src="Images/Jhene.jpeg"></div>
+                    <div class="G-Desc">
+                        <H3 class="Greeting-desc">RNB</H3>
+                    </div>
+                </div>
+                </a>
+             </div>
+            </div>
+
+            <!--RETURN NAVIGATION-->
+
+            <div class="Return Div-Template">
+
+             <h2 class="Return-Quote Quote-Style ">Jump back in</h2>
+              
+              <div class="Artist-Grid">
+                 <div id="Card-Grid">
+                    <div class="Grid-PFP">  <img class="Artist-Image" src="Images/Southlove.jpg"></div>
+                    <a class="Artist-link" href="">
+                     <div class="Grid-Text">
+                       <div class="Artist-Name">Southlove</div>
+                       <div class="Artist-Type">Artist</div>
+                     </div>
+                     <div class="Play-Icon">
+                        <div class="Circle">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    </a>
+                 </div>
+
+                 <div id="Card-Grid">
+                    <div class="Grid-PFP"> <img class="Artist-Image" src="Images/Milanezie.jpeg"></div>
+                    <a class="Artist-link" href="">
+                    <div class="Grid-Text">
+                        <div class="Artist-Name">Milanezie</div>
+                        <div class="Artist-Type">Producer</div>
+                      </div>
+                      <div class="Play-Icon">
+                        <div class="Circle">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                    </a>
+                 </div>
+
+                 <div id="Card-Grid">
+                    <div class="Grid-PFP"> <img class="Artist-Image" src="Images/Dro.png"></div>
+                    <a class="Artist-link" href="">
+                    <div class="Grid-Text">
+                        <div class="Artist-Name">Mexikodro</div>
+                        <div class="Artist-Type">Producer</div>
+                      </div>
+                      <div class="Play-Icon">
+                        <div class="Circle">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    </a>
+                 </div>
+
+                 <div id="Card-Grid">
+                    <div class="Grid-PFP"> <img class="Artist-Image" src="Images/Tony.jpeg"></div>
+                    <a class="Artist-link" href="">
+                    <div class="Grid-Text">
+                        <div class="Artist-Name">Tony Shhnow</div>
+                        <div class="Artist-Type">Artist</div>
+                      </div>
+                 </div>
+                
+                    <div class="Circle">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </a>
+              </div>
+            </div>
+
+
+            <!--SUGGESTION NAVIGATION-->
+            <div class="Suggestion-Quote Div-Template">
+                <h2 class="Suggestion-Quote Quote-Style ">More like Serane</h2>
+                <div class="Artist-Grid">
+                    <div id="Card-Grid">
+                       <div class="Grid-PFP"> 
+                        <img class="Artist-Image" src="Images/Southlove.jpg">
+                       </div>
+                       <a class="Artist-link" href="">
+                        <div class="Grid-Text">
+                          <div class="Artist-Name">Southlove</div>
+                          <div class="Artist-Type">Artist</div>
+                        </div>
+                        <div class="Play-Icon">
+                            <div class="Circle">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                       </a>
+                    </div>
+   
+                    <div id="Card-Grid">
+                       <div class="Grid-PFP"> <img class="Artist-Image" src="Images/Milanezie.jpeg"></div>
+                       <a class="Artist-link" href="">
+                       <div class="Grid-Text">
+                           <div class="Artist-Name">Milanezie</div>
+                           <div class="Artist-Type">Producer</div>
+                         </div>
+                         <div class="Play-Icon">
+                            <div class="Circle">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                       </a>
+                    </div>
+   
+                    <div id="Card-Grid">
+                       <div class="Grid-PFP"> <img class="Artist-Image" src="Images/Dro.png"></div>
+                       <a class="Artist-link" href="">
+                       <div class="Grid-Text">
+                           <div class="Artist-Name">Mexikodro</div>
+                           <div class="Artist-Type">Producer</div>
+                         </div>
+                         <div class="Play-Icon">
+                            <div class="Circle">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                       </a>
+                    </div>
+   
+                    <div id="Card-Grid">
+                       <div class="Grid-PFP"> <img class="Artist-Image" src="Images/Tony.jpeg"></div>
+                       <a class="Artist-link" href="">
+                       <div class="Grid-Text">
+                           <div class="Artist-Name">Tony Shhnow</div>
+                           <div class="Artist-Type">Artist</div>
+                         </div>
+                    </div>
+                    <div class="Play-Icon">
+                        <div class="Circle">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                   </a>
+                 </div>
+           </div>
+
+            </div>
+    
+            </div>
+            
+
+
+
+
+
+
+        </div>
+        <!--MAIN SPLASH NAVIGATION
+         <div class="Social">
+           <H2>Friend Activity</H2>
+
+           <H3>Let friends and followers on Spotify see what you're listening to.</H3>
+            
+         </div> -->
+    
+   </body>
+   <div class="Player">
+    <div class="Current-Song">
+        <div class="Song-PFP"><img class="Current-Image" src="Images/no ceilings.jpg"></div>
+
+        <div class="Playing">
+            <div class="Song-Title">No Ceilings</div>
+            <div class="Song-Artist">Tony Shhnow</div>
+        </div>
+        
+       
+    </div>
+
+    <div class="Player-Icons">
+       <div class="Icon-Div">
+         <div class="Shuffle-Icon" onclick="shuffle()"><i class="fa-solid fa-shuffle"></i></div>
+         <div class="Previous-Icon" onclick="previous()"><i class="fa-solid fa-backward"></i></div>
+         <div class="Play-Icon" onclick="justplay()" ><i class="fa-solid fa-circle-play"  aria-hidden='true' id="Triangle-Play"></i></div>
+         <div class="Next-Icon" onclick="next()"><i class="fa-sharp fa-solid fa-forward-step"></i></div>
+         <div class="Repeat-Icon" onclick="shuffle()"><i class="fa-solid fa-repeat"></i></div>
+       </div>
+ 
+     
+     
+    <div class="Progress-Bar">
+        <div class="Song-Progress">
+            <span class="Song-Start"></span>
+            <input class="Slider" type="range" min="" max="100" value="0"></div>
+            <span class="Song-Finish"></span>
+          </div>
+       
+    </div>
+
+   <div class="Controls">
+         <div class="Queue"><i class="fa-solid fa-bars"></i></div>
+         <div class="Connect"><i class="fa-solid fa-headphones"></i></div>
+         <div class="Volume">
+            <i class="fa-solid fa-volume-high"></i>
+            <input class="Volume-Slider" type="range" min="0" max="0" value="0"></div>
+            <div class="Expand"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></div>
+        </div>
+         
+   </div>
+
+   </div>
+
+<script src="Spotify Clone.Js"></script>
+</html>
